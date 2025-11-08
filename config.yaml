@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    username1:
+      email: user1@example.com
+      name: User One
+      password: hashed_password_here
+    username2:
+      email: user2@example.com
+      name: User Two
+      password: hashed_password_here
+
+cookie:
+  name: NeuroAID
+  key: abcdef
+  expiry_days: 0
