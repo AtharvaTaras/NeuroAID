@@ -11,7 +11,7 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 from keras.applications.vgg16 import VGG16
-from tensorflow.keras.applications.vgg16 import preprocess_input
+# from tensorflow.keras.applications.vgg16 import preprocess_input
 from joblib import load
 import gdown
 import boto3
@@ -24,8 +24,8 @@ import keras
 from tf_keras_vis.saliency import Saliency
 from tf_keras_vis import utils as utils
 from tf_keras_vis.utils import normalize
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras import backend as K
+# from tensorflow.keras.preprocessing import image
+# from tensorflow.keras import backend as K
 
 import os
 from dotenv import load_dotenv
