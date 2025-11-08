@@ -25,7 +25,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 COPY config.yaml .
 COPY *.jpg ./
-COPY *.JPG ./
 COPY start.sh .
 
 # Create a non-root user for security
